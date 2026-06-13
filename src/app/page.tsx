@@ -44,7 +44,7 @@ export default async function Home() {
               title={article.title}
               slug={article.slug}
               thumbnailUrl={article.thumbnail_url}
-              categoryName={article.siraja_sub_categories?.name || 'Uncategorized'}
+              categoryName={(article.siraja_sub_categories as any)?.name || 'Uncategorized'}
               publishedAt={article.published_at}
             />
           ))}
