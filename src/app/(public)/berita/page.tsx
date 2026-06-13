@@ -44,7 +44,6 @@ export default async function SemuaBeritaPage() {
             title={article.title}
             slug={article.slug}
             thumbnailUrl={article.thumbnail_url}
-            // TAMBAHKAN 'as any' DI BAWAH INI UNTUK MENGATASI ERROR TYPESCRIPT
             categoryName={(article.siraja_sub_categories as any)?.name || 'Uncategorized'}
             publishedAt={article.published_at}
           />
