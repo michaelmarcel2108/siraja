@@ -1,4 +1,3 @@
-// src/app/(public)/berita/[slug]/page.tsx
 
 export default function BacaBerita() {
   return (

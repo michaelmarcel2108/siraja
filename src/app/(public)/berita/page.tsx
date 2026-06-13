@@ -1,4 +1,4 @@
-import { supabase } from '@/lib/supabase.ts';
+import { supabase } from '@/lib/supabase';
 import NewsCard from '@/components/NewsCard';
 
 export const revalidate = 0; 
